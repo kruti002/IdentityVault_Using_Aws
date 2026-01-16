@@ -1,10 +1,10 @@
-# 🛡️ Identity Vault: Biometric KYC Setup Guide
+# Identity Vault: Biometric KYC Setup Guide
 
-Welcome to the **Identity Vault** setup guide! This document provides a beginner-friendly, step-by-step walkthrough to host your own biometric KYC (Know Your Customer) system on AWS.
+Welcome to the **Identity Vault** setup guide! This document provides a step-by-step walkthrough to host your own biometric KYC (Know Your Customer) system on AWS.
 
 ---
 
-## 🏗️ Phase 1: Storage & Database (S3 & DynamoDB)
+## Phase 1: Storage & Database (S3 & DynamoDB)
 
 ### 1. Create S3 Buckets
 You need **three** private buckets to store different types of images.
@@ -34,7 +34,7 @@ This stores the verification results and file paths.
 
 ---
 
-## ⚙️ Phase 2: The Logic (AWS Lambda)
+## Phase 2: The Logic (AWS Lambda)
 
 ### 1. Create the Lambda Function
 1. Go to the [Lambda Console](https://console.aws.amazon.com/lambda/).
@@ -161,7 +161,7 @@ Go to **Configuration** -> **Permissions** -> Click the link under **Role name**
 
 ---
 
-## 🌐 Phase 3: The API (API Gateway)
+## Phase 3: The API (API Gateway)
 
 1. Go to the [API Gateway Console](https://console.aws.amazon.com/apigateway/).
 2. Click **Create API** -> **HTTP API**.
@@ -175,7 +175,7 @@ Go to **Configuration** -> **Permissions** -> Click the link under **Role name**
 
 ---
 
-## 🚀 Phase 4: Frontend Connection
+## Phase 4: Frontend Connection
 
 1. Open `frontend/src/App.jsx`.
 2. Locate the `CONFIG` constant near the top:
@@ -187,4 +187,3 @@ Go to **Configuration** -> **Permissions** -> Click the link under **Role name**
 3. Save the file.
 4. Run locally: `npm install` then `npm run dev`.
 
-**Congratulations! Your Biometric Identity Vault is live.** 🛡️✨
