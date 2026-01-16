@@ -4,9 +4,9 @@ An enterprise-grade, AI-powered identity verification system built for security 
 
 ---
 
-## 📺 Video Demonstration
+##  Video Demonstration
 
-![Identity Vault Demo]((https://youtu.be/pw8ZIH5rhQg))
+![Identity Vault Demo](https://youtu.be/pw8ZIH5rhQg)
 
 > *Watch the Identity Vault in action! This video demonstrates the full end-to-end flow: from ID upload and face extraction to live selfie verification and real-time database updates.*
 
