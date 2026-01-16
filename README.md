@@ -1,4 +1,4 @@
-# 🛡️ Identity Vault: Biometric KYC Portal
+# Identity Vault: Biometric KYC Portal
 
 An enterprise-grade, AI-powered identity verification system built for security and speed. **Identity Vault** automates the traditionally slow KYC (Know Your Customer) process using cutting-edge biometric scanning and document intelligence.
 
@@ -6,13 +6,13 @@ An enterprise-grade, AI-powered identity verification system built for security 
 
 ## 📺 Video Demonstration
 
-![Identity Vault Demo](./assets/demo_video.mp4)
+![Identity Vault Demo]((https://youtu.be/pw8ZIH5rhQg))
 
 > *Watch the Identity Vault in action! This video demonstrates the full end-to-end flow: from ID upload and face extraction to live selfie verification and real-time database updates.*
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
 - **Biometric Face Matching**: Uses **AWS Rekognition** to compare faces extracted from official ID documents with live selfies with 99%+ accuracy.
 - **Intelligent Document OCR**: Automatically extracts **Full Name**, **Date of Birth**, and **Aadhaar/ID Numbers** directly from images.
@@ -22,9 +22,9 @@ An enterprise-grade, AI-powered identity verification system built for security 
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
-- **Frontend**: React 19, Framer Motion (Animations), Lucide (Icons), Axios.
+- **Frontend**: React, Framer Motion (Animations), Lucide (Icons), Axios.
 - **Backend**: AWS Lambda (Python 3.11).
 - **AI/ML**: AWS Rekognition (Face Comparison & Text Detection).
 - **Storage**: AWS S3.
@@ -33,16 +33,15 @@ An enterprise-grade, AI-powered identity verification system built for security 
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 To set up this project yourself, please follow our detailed step-by-step guides:
 
 1. **[AWS Backend Setup](./SETUP.md)**: Configure your S3 buckets, DynamoDB, and Lambda functions.
-2. **[Architecture Documentation](./FINAL_PROJECT_DOCUMENTATION.md)**: Deep dive into the system design and data flow.
+
 
 ---
-
-## 🛡️ Security First
+##  Security First
 
 The Identity Vault is designed with privacy-first principles:
 - **No Permanent Exposure**: Presigned URLs expire in 5 minutes.
@@ -51,4 +50,4 @@ The Identity Vault is designed with privacy-first principles:
 
 ---
 
-*This project was built to demonstrate the power of combining modern React UI with AWS AI Services.*
+
