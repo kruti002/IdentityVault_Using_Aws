@@ -27,7 +27,7 @@ build/
 *.swo
 
 # Project Specific
-frontend/dist/
+
 frontend/node_modules/
 backend/__pycache__/
 .python-version
